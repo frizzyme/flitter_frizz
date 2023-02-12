@@ -1,5 +1,6 @@
 body {
-    background-color: #0099ff;
+    font-family: Roboto;
+    background-color: #4ef0b2;
 }
 
 .wrapper {
@@ -36,7 +37,7 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-    background-color: #0099ff;
+    background-color: #b7ffd8;
     color: #fff;
     border: none;
     border-radius: 2px;

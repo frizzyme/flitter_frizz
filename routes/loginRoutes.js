@@ -28,7 +28,7 @@ router.post("/", async (req, res, next) => {
         })
         .catch((error) => {
             console.log(error);
-            payload.errorMessage = "Something went wrong.";
+            payload.errorMessage = "Ooops. Something went wrong.";
             res.status(200).render("login", payload);
         });
         
@@ -41,7 +41,7 @@ router.post("/", async (req, res, next) => {
             }
         }
 
-        payload.errorMessage = "Login credentials incorrect.";
+        payload.errorMessage = "Ooops. The login credentials incorrect.";
         return res.status(200).render("login", payload);
     }
 
